@@ -3,7 +3,7 @@
 
 ## Overview
 
-NDI PTZ Controller is a desktop application designed for controlling NDI-enabled PTZ cameras in real time.
+NDI PTZ Controller is a windows app designed for controlling NDI-enabled PTZ cameras in real time.
 It provides an intuitive interface for camera selection, PTZ control, preset management, and live preview within a single application window.
 
 ---
@@ -88,7 +88,7 @@ ndi_ptz_controller_config.json
 
 ## 개요
 
-NDI PTZ Controller는 NDI 기반 PTZ 카메라를 실시간으로 제어하기 위한 데스크톱 애플리케이션입니다.
+NDI PTZ Controller는 NDI 기반 PTZ 카메라를 실시간으로 제어하기 위한 윈도우즈 앱입니다.
 카메라 선택, PTZ 제어, 프리셋 관리, 실시간 프리뷰 기능을 하나의 인터페이스에서 제공합니다.
 
 ---
