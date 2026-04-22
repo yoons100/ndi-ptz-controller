@@ -94,8 +94,8 @@ ndi_ptz_controller_config.json
 
 # NDI PTZ Controller
 ```
- 이 앱을 처음실행할때 서명되지 않은 앱으로 경고가 뜰 수 있습니다.  
- 서명정보가 포함된 앱은 MS스토어에서 받으실 수 있습니다.
+ 이 앱을 처음 실행할때 서명되지 않은 앱으로 경고가 뜰 수 있습니다.  
+ 서명 정보가 포함된 앱은 MS스토어에서 받으실 수 있습니다.
 ```
 <a href="https://get.microsoft.com/installer/download/9p0kjgjbfhnp?referrer=appbadge" target="_self" >
 	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
