@@ -1,3 +1,4 @@
+![Platform](https://img.shields.io/badge/platform-Windows-blue) [![Release](https://img.shields.io/badge/Release-V1.0-fc1ba6)](https://github.com/yoons100/ndi-ptz-controller/releases) ![License](https://img.shields.io/github/license/yoons100/ndi-ptz-controller)
 # NDI PTZ Controller
 
 ## Overview
