@@ -1,5 +1,13 @@
 ![Platform](https://img.shields.io/badge/platform-Windows-blue) [![Release](https://img.shields.io/badge/Release-V1.0-fc1ba6)](https://github.com/yoons100/ndi-ptz-controller/releases) ![License](https://img.shields.io/github/license/yoons100/ndi-ptz-controller)
 # NDI PTZ Controller
+```
+ When you run this app for the first time, you may see a warning because it is not digitally signed.  
+ A signed version of the app is available on the Microsoft Store.
+```
+<a href="https://get.microsoft.com/installer/download/9p0kjgjbfhnp?referrer=appbadge" target="_self" >
+	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
+</a>
+
 
 ## Overview
 
@@ -85,6 +93,13 @@ ndi_ptz_controller_config.json
 ---
 
 # NDI PTZ Controller
+```
+ 이 앱을 처음실행할때 서명되지 않은 앱으로 경고가 뜰 수 있습니다.  
+ 서명정보가 포함된 앱은 MS스토어에서 받으실 수 있습니다.
+```
+<a href="https://get.microsoft.com/installer/download/9p0kjgjbfhnp?referrer=appbadge" target="_self" >
+	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
+</a>
 
 ## 개요
 
