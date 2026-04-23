@@ -6,8 +6,9 @@
 ```
 <a href="https://get.microsoft.com/installer/download/9p0kjgjbfhnp?referrer=appbadge" target="_self" >
 	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
-</a>
+</a>  
 
+https://apps.microsoft.com/detail/9P0KJGJBFHNP
 
 ## Overview
 
@@ -100,6 +101,8 @@ ndi_ptz_controller_config.json
 <a href="https://get.microsoft.com/installer/download/9p0kjgjbfhnp?referrer=appbadge" target="_self" >
 	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
 </a>
+
+https://apps.microsoft.com/detail/9P0KJGJBFHNP
 
 ## 개요
 
