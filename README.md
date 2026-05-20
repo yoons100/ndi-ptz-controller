@@ -68,10 +68,10 @@ Default port: 9000
 
 ## Configuration
 
-* Config file is automatically created in the same folder as the executable:
+* Config file auto save location:
 
 ```
-ndi_ptz_controller_config.json
+Documents\NDI_PTZ_Controller\ndi_ptz_controller_config.json
 ```
 
 * Stores:
@@ -162,10 +162,10 @@ OSC를 이용한 외부 제어 지원
 
 ## 설정 파일
 
-* 실행 파일과 동일한 폴더에 자동 생성:
+* 설정파일 자동 저장 위치:
 
 ```
-ndi_ptz_controller_config.json
+문서\NDI_PTZ_Controller\ndi_ptz_controller_config.json
 ```
 
 * 저장 항목:
