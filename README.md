@@ -85,7 +85,7 @@ Documents\NDI_PTZ_Controller\ndi_ptz_controller_config.json
 
 ## Notes
 
-* On first launch, NDI sources may not be detected because of the `Windows network access permission` popup.  
+* On first launch, NDI sources may not be detected because of the **Windows network access permission** popup.  
 * Please allow network access, then restart the application.
 * Some cameras may take a few seconds after connection before PTZ becomes available
 * If preview does not appear immediately, wait briefly for the stream to initialize
@@ -183,7 +183,7 @@ OSC를 이용한 외부 제어 지원
 
 ## 참고 사항
 
-* 앱을 처음 실행할 때 `Windows 네트워크 액세스 허용` 팝업으로 인해 NDI 소스가 검색되지 않을 수 있습니다  
+* 앱을 처음 실행할 때 **Windows 네트워크 액세스 허용** 팝업으로 인해 NDI 소스가 검색되지 않을 수 있습니다  
 * 이 경우 네트워크 액세스를 허용한 후 앱을 종료하고 다시 실행해주세요  
 * 일부 카메라는 연결 후 PTZ 제어가 활성화되기까지 몇 초가 걸릴 수 있습니다
 * 프리뷰가 바로 표시되지 않으면 잠시 대기하세요
