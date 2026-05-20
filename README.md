@@ -89,7 +89,7 @@ ndi_ptz_controller_config.json
 * For best performance, use wired network connections
 
 ---
-<img width="928" height="725" alt="shot copy" src="https://github.com/user-attachments/assets/be59c125-4ae6-47ad-8b54-e2173cbe8463" />
+<img width="918" height="712" alt="PTZ01" src="https://github.com/user-attachments/assets/b7756d67-b146-4872-a760-5e1b7d309fab" />
 
 ---
 
