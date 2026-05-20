@@ -1,5 +1,5 @@
 ![Platform](https://img.shields.io/badge/platform-Windows-blue) [![Release](https://img.shields.io/badge/Release-V1.64-fc1ba6)](https://github.com/yoons100/ndi-ptz-controller/releases) ![License](https://img.shields.io/github/license/yoons100/ndi-ptz-controller)
-# <img width="40" height="40" alt="ndi" src="https://github.com/user-attachments/assets/4e51216c-2e5a-4e66-8739-1143695a5e4a" /> NDI PTZ Controller
+# <img width="40" height="40" alt="ndi" src="https://github.com/user-attachments/assets/4e51216c-2e5a-4e66-8739-1143695a5e4a" /> NDI PTZ Controller  
 ```
  When you run this app for the first time, you may see a warning because it is not digitally signed.  
  A signed version of the app is available on the Microsoft Store.
@@ -12,7 +12,7 @@ https://apps.microsoft.com/detail/9P0KJGJBFHNP
 
 ## Overview
 
-NDI PTZ Controller is a Windows App designed for controlling NDI-enabled PTZ cameras in real time.
+NDI PTZ Controller(with VISCA over IP) is a Windows App designed for controlling NDI-enabled PTZ cameras in real time.
 It provides an intuitive interface for camera selection, PTZ control, preset management, and live preview within a single application window.
 
 ---
@@ -110,8 +110,8 @@ https://apps.microsoft.com/detail/9P0KJGJBFHNP
 
 ## 개요
 
-NDI PTZ Controller는 NDI 기반 PTZ 카메라를 실시간으로 제어하기 위한 윈도우즈 앱입니다.
-카메라 선택, PTZ 제어, 프리셋 관리, 실시간 프리뷰 기능을 하나의 인터페이스에서 제공합니다.
+NDI PTZ Controller(with VISCA over IP)는 NDI 기반 PTZ 카메라를 실시간으로 제어하기 위한 윈도우즈 앱입니다.
+카메라 선택, PTZ 제어, 프리셋 관리, 실시간 프리뷰/멀티뷰 기능을 하나의 인터페이스에서 제공합니다.
 
 ---
 
