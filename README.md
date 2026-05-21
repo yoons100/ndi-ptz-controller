@@ -1,4 +1,4 @@
-![Platform](https://img.shields.io/badge/platform-Windows-blue) [![Release](https://img.shields.io/badge/Release-V1.64-fc1ba6)](https://github.com/yoons100/ndi-ptz-controller/releases) ![License](https://img.shields.io/github/license/yoons100/ndi-ptz-controller)
+![Platform](https://img.shields.io/badge/platform-Windows-blue) [![Release](https://img.shields.io/badge/Release-V1.66-fc1ba6)](https://github.com/yoons100/ndi-ptz-controller/releases) ![License](https://img.shields.io/github/license/yoons100/ndi-ptz-controller)
 # <img width="40" height="40" alt="ndi" src="https://github.com/user-attachments/assets/4e51216c-2e5a-4e66-8739-1143695a5e4a" /> NDI PTZ Controller  
 ```
  When you run this app for the first time, you may see a warning because it is not digitally signed.  
@@ -29,7 +29,7 @@ It provides an intuitive interface for camera selection, PTZ control, preset man
 * OSC control support
 * Config file auto-save and restore
 * NDI Studio Monitor quick launch
-* NDI Multiview Popup window
+* NDI Multiview/Singleview Popup window
 
 ---
 
@@ -85,8 +85,9 @@ Documents\NDI_PTZ_Controller\ndi_ptz_controller_config.json
 
 ## Notes
 
-* On first launch, NDI sources may not be detected because of the **Windows network access permission** popup.  
-* Please allow network access, then restart the application.
+* When launching the application for the first time, NDI sources may not be detected because of the Windows Firewall **"Allow network access"** popup.
+* In this case, click the "Allow access" button in the popup so the application can continue running, then click the **"NDI Source Refresh"** button at the bottom left of the main window.
+* After waiting a few seconds, search for the NDI sources again.
 * Some cameras may take a few seconds after connection before PTZ becomes available
 * If preview does not appear immediately, wait briefly for the stream to initialize
 * For best performance, use wired network connections  
@@ -127,7 +128,7 @@ NDI PTZ Controller(with VISCA over IP)는 NDI 기반 PTZ 카메라를 실시간�
 * OSC 제어 지원
 * 설정 파일 자동 저장 및 복원
 * NDI Studio Monitor 실행 기능
-* NDI 멀티뷰 팝업 윈도우
+* NDI 멀티뷰/개별뷰 팝업 윈도우
 
 ---
 
@@ -183,9 +184,10 @@ OSC를 이용한 외부 제어 지원
 
 ## 참고 사항
 
-* 앱을 처음 실행할 때 **Windows 네트워크 액세스 허용** 팝업으로 인해 NDI 소스가 검색되지 않을 수 있습니다  
-* 이 경우 네트워크 액세스를 허용한 후 앱을 종료하고 다시 실행해주세요  
-* 일부 카메라는 연결 후 PTZ 제어가 활성화되기까지 몇 초가 걸릴 수 있습니다
+* 앱을 처음 실행할 때 Windows 방화벽의 **"네트워크 액세스 허용"** 팝업으로 인해 NDI 소스가 검색되지 않을 수 있습니다.
+* 이 경우 팝업에서 "허용" 버튼을 눌러 앱이 계속 실행되도록 한 후, 메인앱 좌측 하단의 **"NDI Source Refresh"** 버튼을 눌러주세요.
+* 몇 초 정도 기다린 뒤 NDI 소스를 다시 검색해주세요.  
+* 일부 카메라는 연결 후 PTZ 제어가 활성화되기까지 수 초가 걸릴 수 있습니다
 * 프리뷰가 바로 표시되지 않으면 잠시 대기하세요
 * 안정적인 사용을 위해 유선 네트워크를 권장합니다  
   (NDI 카메라 1대당 약 50Mbps의 네트워크 대역폭을 사용합니다)
