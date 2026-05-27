@@ -93,6 +93,16 @@ Documents\NDI_PTZ_Controller\ndi_ptz_controller_config.json
 * For best performance, use wired network connections  
   (Each NDI camera uses approximately 50 Mbps of network bandwidth)
 
+Tip:  
+In Windows, MS Store apps may not be directly accessible like normal EXE applications.
+To create a shortcut for an installed app:
+
+* Right-click on the Windows Startup menu → Run
+* Type `shell:AppsFolder` and execute
+* Find the desired app in the opened folder and create a shortcut
+
+The created shortcut can be placed on the desktop or added to the Startup folder for automatic launch.  
+
 ---
 <img width="918" height="712" alt="PTZ01" src="https://github.com/user-attachments/assets/b7756d67-b146-4872-a760-5e1b7d309fab" />
 
@@ -190,7 +200,17 @@ OSC를 이용한 외부 제어 지원
 * 일부 카메라는 연결 후 PTZ 제어가 활성화되기까지 수 초가 걸릴 수 있습니다
 * 프리뷰가 바로 표시되지 않으면 잠시 대기하세요
 * 안정적인 사용을 위해 유선 네트워크를 권장합니다  
-  (NDI 카메라 1대당 약 50Mbps의 네트워크 대역폭을 사용합니다)
+  (NDI 카메라 1대당 약 50Mbps의 네트워크 대역폭을 사용합니다)  
+
+팁:  
+Windows에서 MS Store 앱은 일반 EXE처럼 직접 접근되지 않을 수 있습니다.
+앱의 바로가기를 만들려면:
+
+* 윈도우즈 시작메뉴 우클릭 → 실행
+* `shell:AppsFolder` 입력 후 실행
+* 열리는 폴더에서 원하는 앱을 찾아 바로가기 생성
+
+생성된 바로가기는 바탕화면에 두거나 시작프로그램(Startup)에 등록할 수 있습니다.  
 
 ---
 
