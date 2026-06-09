@@ -1,4 +1,4 @@
-![Platform](https://img.shields.io/badge/platform-Windows-blue) [![Release](https://img.shields.io/badge/Release-V1.66-fc1ba6)](https://github.com/yoons100/ndi-ptz-controller/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/yoons100/ndi-ptz-controller/blob/main/LICENSE)
+![Platform](https://img.shields.io/badge/platform-Windows-blue) [![Release](https://img.shields.io/badge/Release-V1.66-fc1ba6)](https://github.com/yoons100/ndi-ptz-controller/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/yoons100/ndi-ptz-controller/blob/main/LICENSE)
 # <img width="40" height="40" alt="ndi" src="https://github.com/user-attachments/assets/4e51216c-2e5a-4e66-8739-1143695a5e4a" /> NDI PTZ Controller  
 ```
  When you run this app for the first time, you may see a warning because it is not digitally signed.  
