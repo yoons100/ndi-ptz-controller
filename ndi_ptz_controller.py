@@ -139,6 +139,15 @@ class NDIWrapper:
         self._ensure_finder()
 
     def _load_library(self):
+        is_mac = sys.platform == "darwin"
+        is_win = sys.platform.startswith("win")
+
+        # Pick the right ctypes loader for the platform.
+        if is_win:
+            loader = ctypes.WinDLL
+        else:
+            loader = ctypes.CDLL
+
         candidates = []
         env = os.environ.get("NDI_RUNTIME_DIR")
         if env:
@@ -147,6 +156,7 @@ class NDIWrapper:
         app_base = get_app_base_dir()
         runtime_base = get_runtime_extract_dir()
 
+        # Windows DLL locations
         candidates.extend([
             runtime_base / "Processing.NDI.Lib.x64.dll",
             app_base / "Processing.NDI.Lib.x64.dll",
@@ -157,6 +167,20 @@ class NDIWrapper:
             Path(r"C:\Program Files\NDI\NDI 5 Runtime\Processing.NDI.Lib.x64.dll"),
             Path(r"C:\Program Files\NDI\Runtime\Processing.NDI.Lib.x64.dll"),
         ])
+
+        # macOS dylib locations (installed by `brew install --cask libndi`)
+        if is_mac:
+            candidates.extend([
+                Path("/Library/NDI SDK for Apple/lib/macOS/libndi.dylib"),
+                Path("/Library/NDI SDK for Apple/lib/x64/libndi.4.dylib"),
+                Path("/Library/NDI SDK for Apple/lib/x64/libndi.dylib"),
+                Path("/usr/local/lib/libndi.dylib"),
+                Path("/opt/homebrew/lib/libndi.dylib"),
+                runtime_base / "libndi.dylib",
+                app_base / "libndi.dylib",
+                Path.cwd() / "libndi.dylib",
+                Path(__file__).resolve().parent / "libndi.dylib",
+            ])
 
         seen = set()
         unique_candidates = []
@@ -176,13 +200,22 @@ class NDIWrapper:
         for path in unique_candidates:
             if path.exists():
                 try:
-                    return ctypes.WinDLL(str(path))
+                    return loader(str(path))
                 except Exception:
                     pass
 
+        # Fallback: let the OS search its default library paths.
         try:
-            return ctypes.WinDLL("Processing.NDI.Lib.x64.dll")
+            if is_win:
+                return ctypes.WinDLL("Processing.NDI.Lib.x64.dll")
+            else:
+                return ctypes.CDLL("libndi.dylib")
         except Exception as e:
+            if is_mac:
+                raise NDIRuntimeError(
+                    "libndi.dylib not found. Install the NDI SDK for macOS: "
+                    "brew install --cask libndi  (or download from ndi.tv/sdk)."
+                ) from e
             raise NDIRuntimeError(
                 "Processing.NDI.Lib.x64.dll not found. Install NDI Runtime or place the DLL next to this .py file."
             ) from e
